@@ -1,0 +1,12 @@
+showDetails();
+function showDetails(){
+    let name= prompt("Hello!, Please Enter your name: ");
+    switch(name){
+        case "Kunal":
+            console.log("You are allowed to enter");
+            break;        
+        default:
+            console.log("You are not allowed to enter");
+            break;
+    }
+}

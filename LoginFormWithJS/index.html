@@ -1,13 +1,16 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Login Form</title>
+    <title>Login Page</title>
+    <script src="index.js"></script>
   </head>
   <body>
-    <form name="login" onsubmit="validateForm()">
-      <input type="text" name="username" />&nbsp;
-      <input type="password" name="password" />
-      <button type="submit">Login</button>
-    </form>
-    <script src="./login.js" />
+    <h1>Login Page</h1>
+    <form name="myform" method="post" onsubmit="return submitForm()" >  
+        Name: <input type="text" name="name"><br/>  
+        Password: <input type="password" name="password"><br/>  
+        <input type="submit" value="register">  
+    </form>  
+    
   </body>
 </html>
